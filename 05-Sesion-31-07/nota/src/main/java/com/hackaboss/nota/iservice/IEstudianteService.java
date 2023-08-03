@@ -25,4 +25,5 @@ public interface IEstudianteService {
     /** Metodo encargado de listar a los estudiantes por nombre alfabeticamente **/
     List<Estudiante> findOrderByNameStudent();
 
+    List<Estudiante> findListByNameStudent(String nameStudent);
 }
